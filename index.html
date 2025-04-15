@@ -1,0 +1,92 @@
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Spotify-Your favourite music is here</title> 
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <nav>
+        <ul>
+            <li class="brand"></li><img src="logo.png" alt="Spotify"></li>
+            <li style="font-weight: bolder">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>        
+    </nav>
+    <div class="container">
+        <div class="songList">
+        <h1>Best of Me</h1>
+        <div class="Songitemcontainer">
+            <div class="songitem" data-index="0">
+                <img src="cover\cover.jpg" alt="1">
+                <span>Let Me Love You</span>
+                <span class="songLsitplay"><span>02:45</span>
+                    <i class="far fa fa-play-circle playSong"></i>
+                </span>
+            </div>
+            <div class="songitem" data-index="1">
+                <img src="cover\cover2.png" alt="2">
+                <span>Thumbi Vaa</span>
+                <span class="songLsitplay"><span>04:16</span>
+                    <i class="far fa fa-play-circle playSong"></i>
+                </span>
+            </div>
+            <div class="songitem" data-index="2">
+                <img src="cover\cover3.jpg" alt="">
+                <span>Aayiram</span>
+                <span class="songLsitplay"><span>04:23</span>
+                    <i class="far fa fa-play-circle playSong"></i>
+                </span>
+            </div>
+            <div class="songitem" data-index="3">
+                <img src="cover\cover4.jpg" alt="1">
+                <span>Agar Tum</span>
+                <span class="songLsitplay"><span>05.41</span>
+                    <i class="far fa fa-play-circle playSong"></i>
+                </span>
+            </div>
+            <div class="songitem" data-index="4">
+                <img src="cover\cover5.jpg" alt="1">
+                <span>Abhi na jao</span>
+                <span class="songLsitplay"><span>04:18</span>
+                    <i class="far fa fa-play-circle playSong"></i>
+                </span>
+            </div>
+            <div class="songitem" data-index="5">
+                <img src="cover\cover6.jpeg" alt="1">
+                <span>Night Changes</span>
+                <span class="songLsitplay"><span>00:32</span>
+                    <i class="far fa fa-play-circle playSong"></i>
+                </span>
+            </div>
+            <div class="songitem" data-index="6">
+                <img src="cover\cover7.jpg" alt="1">
+                <span>Sathranga</span>
+                <span class="songLsitplay"><span>04:31</span>
+                    <i class="far fa fa-play-circle playSong"></i>
+                </span>
+            </div>
+        </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="Bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa fa-3x fa-step-backward" id="prev"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fa fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="SongInfo">
+            <span id="timeStamp">0:00 / 0:00</span>
+            <img id="gif" src="vsgif_com__.3179005.gif" style="opacity: 0; height: 50px;"/>
+        </div>
+    </div>    
+    <script src="https://kit.fontawesome.com/f686fc07da.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
